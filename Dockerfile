@@ -1,7 +1,7 @@
 FROM httpd:2.4
 COPY ./public-html/ /usr/local/apache2/htdocs/
 
-ADD webEstaticaBasica /var/www/html
+ADD webEstaticaBasica /usr/local/apache2/htdocs/
 
 EXPOSE 80
 
