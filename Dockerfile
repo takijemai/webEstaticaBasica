@@ -1,6 +1,6 @@
 FROM httpd:2.4
 
-ADD  webEstaticaBasica /usr/local/apache2/htdocs/
+ADD  webEstaticaBasica /var/www/html
 
 EXPOSE 80
 
